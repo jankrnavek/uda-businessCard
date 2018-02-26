@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="delimiter_padding">15dp</dimen>
+    <dimen name="text_normal">12sp</dimen>
+    <dimen name="text_xl">16sp</dimen>
+    <dimen name="text_h2">24sp</dimen>
+    <dimen name="text_h1">26sp</dimen>
+    <dimen name="button_padding">12dp</dimen>
+</resources>

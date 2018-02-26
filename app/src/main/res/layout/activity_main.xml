@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainBackground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/img_python_django"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="Python Django"
+            android:scaleType="fitXY"
+            android:src="@drawable/python_django" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/delimiter_padding"
+            android:layout_marginRight="@dimen/delimiter_padding"
+            android:layout_marginTop="25dp"
+            android:background="@color/delimiter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="0.03"
+            android:text="We like Python and Django"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_h1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="• we specialize in software development in Python and Django"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/delimiter_padding"
+            android:layout_marginRight="@dimen/delimiter_padding"
+            android:layout_marginTop="@dimen/delimiter_padding"
+            android:background="@color/delimiter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.03"
+            android:text="We can help you with"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_h2"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="• create Django aplication or web page"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="• customize or repair Django application created by the third party"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="• link Django application with the information or accounting system"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="• solve the problem with performance of Django application"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/delimiter_padding"
+            android:layout_marginRight="@dimen/delimiter_padding"
+            android:layout_marginTop="15dp"
+            android:background="@color/delimiter" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:letterSpacing="0.03"
+            android:text="Contact us"
+            android:textColor="@color/title"
+            android:textSize="@dimen/text_h2"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/contact_webpage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:letterSpacing="0.1"
+                    android:text="WEB        "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/contact_webpage2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" www.mydjango.cz"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/contact_email1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:letterSpacing="0.1"
+                    android:text="E-mail     "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/contact_email2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="info@mydjango.cz"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/contact_phone1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:letterSpacing="0.1"
+                    android:text="Phone     "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/contact_phone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="+420 101 123 456"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/contact_address1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:letterSpacing="0.1"
+                    android:text="Address  "
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/contact_address2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="Cejl 91, Brno, Czech Republic"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_xl"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_webpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="@dimen/delimiter_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:text="Webpage" />
+
+            <Button
+                android:id="@+id/button_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="@dimen/delimiter_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:text="Send us email" />
+
+            <Button
+                android:id="@+id/button_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/delimiter_padding"
+                android:paddingRight="@dimen/button_padding"
+                android:text="Call us" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
